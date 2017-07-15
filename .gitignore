@@ -1,5 +1,8 @@
+jtr.egg-info/
+coverage.xml
 .tox
 .coverage
 venv
 **/__pycache__
 **/*.pyc
+htmlcov/
