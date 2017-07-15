@@ -1,5 +1,6 @@
 jtr.egg-info/
 coverage.xml
+.cache/
 .tox
 .coverage
 venv

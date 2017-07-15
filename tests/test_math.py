@@ -4,7 +4,7 @@ import time
 def test_add():
     a = 1
     b = 2
-    time.sleep(10)
+    time.sleep(5)
     assert jtr._add(a, b) == 3
 
 def test_sub():
@@ -20,7 +20,7 @@ def test_mult():
     assert jtr._mult(a, b) == 8
 
 def test_div():
-    a = 0
-    b = 0
-    assert jtr._div(a, b) == 0
+    a = 12
+    b = 6
+    assert jtr._div(a, b) == 2
 
