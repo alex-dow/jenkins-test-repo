@@ -1,16 +1,12 @@
 # jenkins-test-repo
 
-A place to test integration between Github and Jenkins.
+This is a simple repo to test Jenkins stuff such as Github integration, report publishing and various other features, as well as github workflows.
 
-This line of text is added to a branch that is branched off of develop.
-So when I commit and push and create a pull request, I expect this to work
-on the develop branch.
-
-I added some more thoughts
+For this repository, the workflow is:
 
 Assumed Workflow:
 1. Master branch is current release
-2. Changes merged into the develop branch
+2. New release comes from a merge of the develop branch into master
 3. Changes are created in separate branches
 4. Pull requests are made from those separate branches into develop
 5. Develop is merged into master for next release
@@ -29,4 +25,4 @@ Jenkins Side:
 4. Add build task to set status to pending on Github
 5. Add post-build task to set github status (universal)
 
-
+I got it all working, nice.
