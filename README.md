@@ -6,6 +6,8 @@ This line of text is added to a branch that is branched off of develop.
 So when I commit and push and create a pull request, I expect this to work
 on the develop branch.
 
+I added some more thoughts
+
 Assumed Workflow:
 1. Master branch is current release
 2. Changes merged into the develop branch
